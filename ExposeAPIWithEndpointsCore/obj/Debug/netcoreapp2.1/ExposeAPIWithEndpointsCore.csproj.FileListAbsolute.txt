@@ -1,0 +1,14 @@
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/bin/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.deps.json
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/bin/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.runtimeconfig.json
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/bin/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.runtimeconfig.dev.json
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/bin/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.dll
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/bin/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.pdb
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.csprojAssemblyReference.cache
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.csproj.CoreCompileInputs.cache
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.RazorAssemblyInfo.cache
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.RazorAssemblyInfo.cs
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.AssemblyInfoInputs.cache
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.AssemblyInfo.cs
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.RazorTargetAssemblyInfo.cache
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.dll
+/Users/zhenrongshi/Projects/ExposeAPIWithEndpointsCore/obj/Debug/netcoreapp2.1/ExposeAPIWithEndpointsCore.pdb
