@@ -3,12 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using RpcClient;
 
 namespace ExposeAPIWithEndpointsCore.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ServiceController : ControllerBase
+    {
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
+        {
+            // return "Service";
+            RPCClient rpcClient = new RPCClient();
+
+            Console.WriteLine(" [x] Requesting fib(30)");
+            var response = rpcClient.Call("30");
+            Console.WriteLine(" [.] Got '{0}'", response);
+
+            rpcClient.Close();
+        }
+    }
+
+    [Route("api/[controller]")]
+    [ApiController]
+    public class HeartBeatController : ControllerBase
     {
         // GET api/values
         [HttpGet]
