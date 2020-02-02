@@ -14,14 +14,21 @@ namespace ExposeAPIWithEndpointsCore.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            // return "Service";
-            RPCClient rpcClient = new RPCClient();
+            try
+            {
+                RPCClient rpcClient = new RPCClient();
 
-            Console.WriteLine(" [x] Requesting fib(30)");
-            var response = rpcClient.Call("30");
-            Console.WriteLine(" [.] Got '{0}'", response);
+                Console.WriteLine(" [x] Requesting fib({0})", id);
+                var response = rpcClient.Call(id.ToString());
+                Console.WriteLine(" [.] Got '{0}'", response);
 
-            rpcClient.Close();
+                rpcClient.Close();
+                return response;
+            }
+            catch
+            {
+                return "404 error";
+            }
         }
     }
 

@@ -19,7 +19,6 @@ namespace RpcClient
                 HostName = "localhost"
             };
             //factory.Uri = new Uri("amqp://user:pass@hostName:port/vhost");
-
             connection = factory.CreateConnection();
             channel = connection.CreateModel();
             replyQueueName = channel.QueueDeclare();
